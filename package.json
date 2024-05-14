@@ -1,0 +1,33 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "making a webcrawler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "type": "module",
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpforbes5151/crawler.git"
+  },
+  "author": "jpforbes5151",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpforbes5151/crawler/issues"
+  },
+  "homepage": "https://github.com/jpforbes5151/crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
